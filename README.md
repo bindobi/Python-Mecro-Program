@@ -1,2 +1,8 @@
-# Python-Mecro-Program
-Python-Mecro-Program
+# 나의 파이썬 프로젝트
+나의 파이썬 프로젝트
+
+메크로 폴더
+-나의 첫 작품
+-오토마우스 같은 프로그램이며 위에있는 두 txt 파일이 코드 실행시 같이 생성됨
+-두 파일은 데이터 저장 용도로 쓰임
+-PtQt5,win32api,pyautogui등의 모듈이 필요함 (win32api는 설치 방법이 다름)
