@@ -5,6 +5,18 @@ import win32api
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QMessageBox, QComboBox, QLabel
 from PyQt5.QtCore import QObject, QThread
 
+try:
+    file = open("DATA_List.txt","r")
+except:
+    file = open("DATA_List.txt","w")
+    file.write("None")
+    file.close()
+try:
+    file = open("DATA_Name.txt","r")
+except:
+    file = open("DATA_Name.txt","w")
+    file.write("None")
+    file.close()
 #########################전역함수
 def up_num(t):
     while True:
